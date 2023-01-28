@@ -1,13 +1,27 @@
 import './App.css';
 import { IoAirplane, IoAmericanFootballOutline, IoAccessibilityOutline } from "react-icons/io5";
 import { FcAssistant, FcLinux } from "react-icons/fc";
-import { FaHandPaper, FaHandshakeAltSlash } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter, FaTiktok, FaHandPaper, FaHandshakeAltSlash } from "react-icons/fa";
 import CustomButton from "./components/CustomButton/CustomButton";
 import Collapsable from './components/Collapsable/Collapsable';
+import Circle from './components/Circle/Circle';
 
 function App() {
   return (
     <div className="app">
+
+      <h2>Ejemplos de círculos:</h2>
+      <Circle>
+        <FaFacebookF></FaFacebookF>
+      </Circle>
+
+      <Circle>
+        <FaInstagram></FaInstagram>
+      </Circle>
+
+      <Circle>
+        <FaTwitter></FaTwitter>
+      </Circle>
 
       <h2>Ejemplo de collapsable</h2>
       <Collapsable title="Este es el primer collapsable">
