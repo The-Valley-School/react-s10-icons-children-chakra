@@ -1,14 +1,25 @@
 import './App.css';
 import { IoAirplane, IoAmericanFootballOutline, IoAccessibilityOutline } from "react-icons/io5";
 import { FcAssistant, FcLinux } from "react-icons/fc";
-import { FaFacebookF, FaInstagram, FaTwitter, FaTiktok, FaHandPaper, FaHandshakeAltSlash } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter, FaHandPaper, FaHandshakeAltSlash } from "react-icons/fa";
 import CustomButton from "./components/CustomButton/CustomButton";
 import Collapsable from './components/Collapsable/Collapsable';
 import Circle from './components/Circle/Circle';
+import { Button, Stack } from '@chakra-ui/react';
 
 function App() {
   return (
     <div className="app">
+
+      <h2>Ejemplos de chakra:</h2>
+      <Stack spacing={4} direction='row' align='center'>
+        <Button colorScheme='blue' size="xs" rightIcon={<FaTwitter></FaTwitter>}>
+          Ir a twitter
+        </Button>
+        <Button colorScheme='red' size="sm">Button</Button>
+        <Button colorScheme="blackAlpha" size="md">Button</Button>
+        <Button colorScheme='yellow' size="lg">Button</Button>
+      </Stack>
 
       <h2>Ejemplos de círculos:</h2>
       <Circle>
