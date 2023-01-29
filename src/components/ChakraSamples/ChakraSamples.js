@@ -14,8 +14,6 @@ import { FaTwitter } from "react-icons/fa";
 import {
   Alert,
   AlertIcon,
-  AlertTitle,
-  AlertDescription,
 } from '@chakra-ui/react';
 
 const ChakraSamples = () => {
@@ -40,7 +38,7 @@ const ChakraSamples = () => {
                 Ir a twitter
               </Button>
               <Button colorScheme='red' size="sm">Button</Button>
-              <Button colorScheme="blackAlpha" size="md">Button</Button>
+              <Button colorScheme="thevalley" size="md">Button</Button>
               <Button colorScheme='yellow' size="lg">Button</Button>
             </Stack>
           </TabPanel>
