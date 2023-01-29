@@ -5,21 +5,15 @@ import { FaFacebookF, FaInstagram, FaTwitter, FaHandPaper, FaHandshakeAltSlash }
 import CustomButton from "./components/CustomButton/CustomButton";
 import Collapsable from './components/Collapsable/Collapsable';
 import Circle from './components/Circle/Circle';
-import { Button, Stack } from '@chakra-ui/react';
+import ChakraSamples from "./components/ChakraSamples/ChakraSamples"
 
 function App() {
+
   return (
     <div className="app">
 
       <h2>Ejemplos de chakra:</h2>
-      <Stack spacing={4} direction='row' align='center'>
-        <Button colorScheme='blue' size="xs" rightIcon={<FaTwitter></FaTwitter>}>
-          Ir a twitter
-        </Button>
-        <Button colorScheme='red' size="sm">Button</Button>
-        <Button colorScheme="blackAlpha" size="md">Button</Button>
-        <Button colorScheme='yellow' size="lg">Button</Button>
-      </Stack>
+      <ChakraSamples></ChakraSamples>
 
       <h2>Ejemplos de círculos:</h2>
       <Circle>
