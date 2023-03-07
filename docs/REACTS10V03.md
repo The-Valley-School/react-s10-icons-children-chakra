@@ -43,7 +43,7 @@ export default Collapsable;
 
 El CSS de nuestro Collapsable así:
 
-```jsx
+```css
 .collapsable {
   border: 1px solid #333;
   margin-bottom: 10px;
