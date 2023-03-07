@@ -17,29 +17,89 @@ Crea un componente ImageCard que reciba por propiedades la url de una imagen a p
 Para hacer uso de este componente haremos algo así:
 
 ```jsx
-<ImageCard imageUrl="https://www.shutterstock.com/shutterstock/photos/555325381/display_1500/stock-photo-luxurious-new-construction-home-in-bellevue-wa-modern-style-home-boasts-two-car-garage-framed-by-555325381.jpg">
-  <FcHome></FcHome>
-  <h2><strong>Lujosa nueva casa de construcción en Bellevue, WA. Casa de estilo moderno con dos garajes de camión enmarcados por un lado azul y una pared de piedra natural. Noroeste, Estados Unidos</strong></h2>
-  <ul>
-    <li>200 habitaciones</li>
-    <li>10 baños</li>
-    <li>garaje para 5 coches</li>
-    <li>billar</li>
-  </ul>
-
-  <FcMoneyTransfer></FcMoneyTransfer>
-  <p>1.000.000€</p>
+<ImageCard imageUrl="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.png">
+  <h2>NodeJS</h2>
+  <p>Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor basado en el lenguaje de programación JavaScript</p>
+  <a href="https://nodejs.org/">https://nodejs.org/</a>
 </ImageCard>
 ```
 
 Lo cual deberá mostrar una tarjeta con la imagen y el contenido que le hemos pasado en las props:
 
-![ejercicio-react.png](/docs/assets/ejercicio-react.png)
+![Untitled](/docs/assets/Untitled%209.png)
 
-**Paso 3: Usar componente Accordion de Chakra**
+**Paso 3: Crear la estructura para un CV**
 
-Deberás hacer uso del componente Accordion de Chakra y pintar como ves en la imagen anterior un acordeón con 3 elementos.
+En este paso crearemos solo la estructura de nuestra página en varios componentes que puedes dejar vacíos por ahora:
 
-Si te da tiempo y te atreves puedes probar a personalizar el acordeón cambiando su estilo.
+- Header
+- Contact
+- About
+- Projects
+- Knowledge
 
-Recuerda revisar la documentación de Chakra
+**Paso 4: Componente Header**
+
+![header.jpg](/docs/assets/header.jpg)
+
+Añade contenido tu componente Header, para ello debes usar al menos estos componentes te Chakra:
+
+- Flex
+- Text
+- Image
+
+**Paso 5: Componente Contact**
+
+![contact.jpg](/docs/assets/contact.jpg)
+
+Añade contenido tu componente Contact, para ello debes usar al menos estos componentes te Chakra:
+
+- Button
+- Image
+- Popover
+
+El popover servirá para desplegar el contenido de los botones. Recuerda usar también React-Icons:
+
+![Untitled](/docs/assets/Untitled%2010.png)
+
+Paso 6: Componente About:
+
+Este componente contendrá información sobre ti:
+
+![Untitled](/docs/assets/Untitled%2011.png)
+
+Para desarrollarlo deberás usar los siguientes componentes de Chakra:
+
+- Flex
+- Text
+
+Y los iconos de React-Icons
+
+**Paso 7: Componente Projects:**
+
+Deberás mostrar una lista de proyectos de la siguiente manera:
+
+![Untitled](/docs/assets/Untitled%2012.png)
+
+Al pulsar sobre un proyecto verás una modal informativa:
+
+![Untitled](/docs/assets/Untitled%2013.png)
+
+Deberás usar al menos los siguientes componentes Chakra:
+
+- Modal
+- ModalOverlay
+- ModalContent
+- ModalHeader
+- Image
+- Button
+
+**Paso 8: Knowledge**
+
+Por último harás un componente Knowledge para pintar tus conocimientos mediante varios componentes ImageCard, aquí no es necesario que uses Chakra:
+
+![Untitled](/docs/assets/Untitled%2014.png)
+
+**Resultado FINAL**
+
+![localhost_3000.png](/docs/assets/localhost_3000.png)
