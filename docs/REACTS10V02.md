@@ -50,7 +50,7 @@ Como puedes observar los componentes hijos se pintarán mediante la etiqueta { c
 
 La hoja de estilos de nuestro CustomButton queda así:
 
-```jsx
+```css
 .custom-button {
   border: 2px solid red;
   padding: 5px 10px;
