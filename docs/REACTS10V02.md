@@ -2,7 +2,7 @@
 
 En este video veremos la propiedad children, esto nos permitirá pasar contenido HTML a nuestros componentes. 
 
-Para demostrarlo crearemos un componente botón que permitirá que se le inyecte contenido HTML y lo pintará dentro de una etiqueta <button>. 
+Para demostrarlo crearemos un componente botón que permitirá que se le inyecte contenido HTML y lo pintará dentro de una etiqueta button
 
 Nuestro componente App.js hará uso de ese botón de la siguiente manera:
 
