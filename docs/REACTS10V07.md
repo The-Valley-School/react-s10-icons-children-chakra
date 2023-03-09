@@ -84,3 +84,7 @@ Gracias a eso podemos indicar que queremos hacer uso de nuestra gama de colores 
 Y también veremos como la gama blue o yellow se ha visto modificada:
 
 ![Untitled](/docs/assets/Untitled%208.png)
+
+Recuerda que el código que hemos visto durante los vídeos puedes encontrarlo en el siguiente repositorio:
+
+<https://github.com/The-Valley-School/react-s10-icons-children-chakra>

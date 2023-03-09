@@ -103,3 +103,7 @@ Por último harás un componente Knowledge para pintar tus conocimientos mediant
 **Resultado FINAL**
 
 ![localhost_3000.png](/docs/assets/localhost_3000.png)
+
+Recuerda que el código que hemos visto durante los vídeos puedes encontrarlo en el siguiente repositorio:
+
+<https://github.com/The-Valley-School/react-s10-icons-children-chakra>
